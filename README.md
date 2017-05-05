@@ -36,9 +36,9 @@ Example command:-
 I have used the JAVAPARSER library to parse the JAVA code into a logically understandable grammar 
 https://github.com/javaparser/javaparser
 
-The library provides various methods and classes that read the source code and provide access to each sub-unit of the code via various methods or classes.
+The library provides various methods and classes that read the source code and provide access to each sub-unit of the code in terms of various methods and classes.
 
-For generating the sequence diagram, plantUML is integrated in the code
+For generating the sequence diagram, I have used plantUML in the code
 http://plantuml.com/
 
 
