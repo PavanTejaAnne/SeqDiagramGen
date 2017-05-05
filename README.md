@@ -6,7 +6,7 @@ This project creates a Parser which generates a Sequence Diagram from Java Sourc
 
 ## Instructions for generating Sequence Diagrams
 The program expects following arguments in the following format:
-<Keyword> "<FullPath>" <ClassName> <MethodName> <OutputFileName>
+(Keyword) "(FullPath)" (ClassName) (MethodName) (OutputFileName)
 
 1. Keyword:
   - One word string.
@@ -28,7 +28,7 @@ The program expects following arguments in the following format:
   - Only one word(no spaces and no .png extensions.)
   - File will be created at the source files folder as given in second argument.
    
-  Example command:-
+Example command:-
   java -jar jarname.jar seq "/Users/pavanteja/Downloads/Parser/Test Classes/sequence-diagram-test-1" Customer depositMoney seqdiagram
   
   
